@@ -76,3 +76,30 @@ body{
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
+.recipies-title{
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+.item-part{
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 10%;
+}
+.item-part img{
+    width: 100%;
+}
+.recipies-cart{
+    border: 5px solid rgb(255, 254, 254);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(60, 60, 60, 0.9);
+}
+.recipies-part{
+    margin-bottom: 20px;
+}
