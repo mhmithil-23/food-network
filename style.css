@@ -95,11 +95,46 @@ body{
     width: 100%;
 }
 .recipies-cart{
-    border: 5px solid rgb(255, 254, 254);
-    border-radius: 15px;
     padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(60, 60, 60, 0.9);
+    box-shadow: 2px 2px 20px grey;
+    border-radius: 15px;
 }
 .recipies-part{
     margin-bottom: 20px;
 }
+.social-count{
+    width: 60%;
+    height: 100px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 40px grey;
+    border-radius: 10px;
+    line-height: 10px;
+}
+footer{
+    height: 150px;
+    background-color: black;
+    margin-bottom: 0;
+    text-align: center;
+}
+.text{
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+.text>h2{
+    color: rgba(240, 248, 255, 0.75);
+    position: relative;
+    top: 15px;
+}
+span{
+    color: orange;
+}
+.text>p{
+    color: rgba(240, 248, 255, 0.75);
+}
+
